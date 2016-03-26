@@ -63,6 +63,9 @@ body{
     margin:60px 0px 60px 0px;
 }
 
+.solution>hr{
+    margin-bottom: 60px;
+}
 hr{
     border-color: white;
     border-width: 3px;
@@ -90,6 +93,11 @@ hr.blue{
 
 .solution-box{
     padding-top: 30px;
+    text-align: left;
+}
+
+.solution-box-icon{
+    text-align: center;
 }
 
 .solution-footer{
