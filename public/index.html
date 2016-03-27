@@ -58,7 +58,9 @@
                 <h1>The Bitcoin payment solution</h1>
                 <hr/>
                 <h4>An open source, free and easily integrable Bitcoin payment gateway, designed for online shops.</h4>
-                <a href="#solution-section"><button id="marketing-button" class="btn btn-primary btn-lg">Get started</button></a>
+                <a href="#solution-section">
+                    <button id="marketing-button" class="btn btn-primary btn-lg">Get started</button>
+                </a>
             </div>
         </div>
     </div>
@@ -70,32 +72,36 @@
             <h1>Features</h1>
             <hr class="blue"/>
             <div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="feature-box">
                         <i class="fa fa-4x fa-credit-card-alt "></i>
                         <h3>Compatible</h3>
-                        <p>BytePayr is easily integrable with any other payment solution that you're already using in your store.</p>
+                        <p>BytePayr is easily integrable with any other payment solution that you're already using in
+                            your store.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="feature-box">
                         <i class="fa fa-4x fa-line-chart"></i>
                         <h3>Free</h3>
-                        <p>BytePayr has no fees, is completely free and open source. The amount the client payed is the amount you get.</p>
+                        <p>BytePayr has no fees, is completely free and open source. The amount the client payed is the
+                            amount you get.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="feature-box">
                         <i class="fa fa-4x fa-lock"></i>
                         <h3>Secure</h3>
-                        <p>With BytePayr, all the components of the gateway run in your server and you have total control over them.</p>
+                        <p>With BytePayr, all the components of the gateway run in your server and you have total
+                            control over them.</p>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6">
+                <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="feature-box">
                         <i class="fa fa-4x fa-terminal "></i>
                         <h3>Customizable</h3>
-                        <p>You can use one of our frontends for BytePayr or use directly the REST API and build it yourself.</p>
+                        <p>You can use one of our frontends for BytePayr or use directly the REST API and build it
+                            yourself.</p>
                     </div>
                 </div>
             </div>
@@ -109,45 +115,48 @@
             <h1>How it works</h1>
             <hr/>
             <div class="row">
-                <div class="col-lg-6">
-                    <img src="assets/solution.svg"/>
+                <div class="col-md-5">
+                    <img style="display:inline-block; width: 100%" src="assets/architecture.svg"/>
                 </div>
-                <div class="col-lg-6">
-                    <div class="solution-box animated fadeInUp">
-                        <div class="row">
-                            <div class="solution-box-icon col-md-2"><i class="fa fa-4x fa-desktop"></i></div>
-                            <div class="col-md-10">
-                                <h3>Frontend</h3>
-                                <p>This is layer that interacts with the user and that is integrated in your website.
-                                    You can use one of our gateway frontends or build your own using our API.</p>
+                <div class="col-md-7">
+                        <div class="solution-box animated fadeInUp">
+                            <div class="row">
+                                <div class="solution-box-icon col-md-2"><i class="fa fa-4x fa-desktop"></i></div>
+                                <div class="col-md-10">
+                                    <h3>Frontend</h3>
+                                    <p>This is layer that interacts with the user and that is integrated in your
+                                        website.
+                                        You can use one of our gateway frontends or build your own using our API.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="solution-box animated fadeInUp">
-                        <div class="row">
-                            <div class="solution-box-icon col-md-2"><i class="fa fa-4x fa-diamond"></i></div>
-                            <div class="col-md-10">
-                                <h3>Gateway</h3>
-                                <p>Here is with the magic happens. This layer constitutes the core of BytePayr,
-                                    offering a REST and Socket.io API and interacting with the Bitcoin wallet.</p>
+                        <div class="solution-box animated fadeInUp">
+                            <div class="row">
+                                <div class="solution-box-icon col-md-2"><i class="fa fa-4x fa-diamond"></i></div>
+                                <div class="col-md-10">
+                                    <h3>Gateway</h3>
+                                    <p>Here is with the magic happens. This layer constitutes the core of BytePayr,
+                                        offering a REST and Socket.io API and interacting with the Bitcoin wallet.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="solution-box animated fadeInUp">
-                        <div class="row">
-                            <div class="solution-box-icon col-md-2"><i class="fa fa-4x fa-btc"></i></div>
-                            <div class="col-md-10">
-                                <h3>Wallet</h3>
-                                <p>The safe where the payments will be received and stored.
-                                    We use the open source and well tested bitcoin client, so your money is completely safe.</p>
+                        <div class="solution-box animated fadeInUp">
+                            <div class="row">
+                                <div class="solution-box-icon col-md-2"><i class="fa fa-4x fa-btc"></i></div>
+                                <div class="col-md-10">
+                                    <h3>Wallet</h3>
+                                    <p>The safe where the payments will be received and stored.
+                                        We use the open source and well tested bitcoin client, so your money is
+                                        completely safe.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
                 </div>
             </div>
             <div class="solution-footer">
-                <p>BytePayr can be easily integrated in your store if you use PHP or Node.js, using one of our frontends. If your site is
-                written in another language, you can use the standalone frontend, and if none of this works for you,
+                <p>BytePayr can be easily integrated in your store if you use PHP or Node.js, using one of our
+                    frontends. If your site is
+                    written in another language, you can use the standalone frontend, and if none of this works for you,
                     we offer an extremely simple REST and Socket.io API.</p>
                 <button class="btn btn-primary btn-lg">Get started with Node.js</button>
                 <button class="btn btn-primary btn-lg">Get started with PHP</button>
@@ -163,7 +172,8 @@
         <div class="contact">
             <h1>Contact us</h1>
             <hr/>
-            <p>Any suggestions or questions? Contact us through our Github or fill the form below, we are happy to help!</p>
+            <p>Any suggestions or questions? Contact us through our Github or fill the form below, we are happy to
+                help!</p>
             <form id="contact-form">
                 <div class="row">
                     <div class="col-md-6">
@@ -208,7 +218,10 @@
     </div>
 </footer>
 
-<a href="https://github.com/sirasistant"><img style="position: absolute; top: 0; left: 0; border: 0;" src="https://camo.githubusercontent.com/8b6b8ccc6da3aa5722903da7b58eb5ab1081adee/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png"></a>
+<a href="https://github.com/sirasistant"><img style="position: absolute; top: 0; left: 0; border: 0;"
+                                              src="https://camo.githubusercontent.com/8b6b8ccc6da3aa5722903da7b58eb5ab1081adee/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6f72616e67655f6666373630302e706e67"
+                                              alt="Fork me on GitHub"
+                                              data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_orange_ff7600.png"></a>
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
