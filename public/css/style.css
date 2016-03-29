@@ -137,3 +137,12 @@ hr.blue{
 #contact-form-send{
     margin-top: 20px;
 }
+
+.contact-result{
+    padding:100px 0px;
+}
+
+.contact-result h1{
+    color:white;
+    margin-bottom: 20px;
+}
